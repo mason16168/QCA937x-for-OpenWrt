@@ -10,7 +10,7 @@ export BOARD_TYPE=x86
 export HOST_DRIVER_VERSION=4.0.10.213
 export BLUETOOTHSTACK=bluedroid
 export BOARD_TYPE_AIO_PATCH_CAF=
-export IF_TYPE=USB
+export IF_TYPE=PCIE
 export ENG_PATCH=1
 
 include ../qca937x/build/scripts/${BOARD_TYPE}/config.${BOARD_TYPE}
